@@ -1,0 +1,10 @@
+name: Run Hello Action
+on: push
+
+jobs:
+  hello:
+    runs-on: ubuntu-latest
+    name: Hello
+    steps:
+    - name: hello
+      uses: kkk-commit/20250320-my-custom-action@v1.0.0
